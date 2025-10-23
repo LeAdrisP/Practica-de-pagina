@@ -1,0 +1,107 @@
+/* Estilo general */
+body {
+  background-color: pink;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+  margin: 40px;
+  text-align: center;
+}
+
+/* Título principal */
+h1 {
+  color: yellow;
+  text-shadow: 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Párrafo principal */
+p {
+  color: #444;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+/* Lista */
+ol {
+  list-style-type: decimal-leading-zero;
+  display: inline-block;
+  text-align: left;
+  padding: 10px 20px;
+  background: #fff3f6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Tabla */
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 60%;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+th {
+  background-color: #ff80ab;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+  background-color: #ffe6ee;
+}
+
+/* Formulario */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 50%;
+  margin: 20px auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+form p {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff4081;
+}
+
+/* Imagen */
+img {
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
