@@ -1,8 +1,22 @@
-#una_capa {
-  background-color: white;
+table {
   width: 60%;
-  margin: 30px auto;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffb6c1; /* rosa claro */
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #ffe6eb; /* fila alternada */
 }
