@@ -20,3 +20,13 @@ th {
 tr:nth-child(even) {
   background-color: #ffe6eb; /* fila alternada */
 }
+
+#tabla_caja {
+  width: 70%;           /* ancho del contenedor */
+  height: auto;         /* altura automática */
+  margin: 30px auto;    /* centrado */
+  padding: 20px;        /* espacio interno */
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
